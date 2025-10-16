@@ -39,7 +39,7 @@ import BASEURL from "./serverURL"
  }
 
 
-  //4 delete Resumes 
+  //5 delete Resumes 
 
   export const deleteResumeAPI = async (id) => {
 
