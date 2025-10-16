@@ -20,7 +20,7 @@ function Preview({userInput, isResumeAdded, resumeId,setUserInput}) { //{} is gi
 const downloadPDF = async () =>{
   const input  = document.getElementById("result") //to get the id
   const canvas = await html2canvas (input , {scale :2}) //to convert the selected html to canvas (screenshot)
-  const imgData = canvas.toDataURL("image/png") //to convert canvas into iamge url
+  const imgData = canvas.toDataURL("image/png") //to convert canvas into image url
 
   //pdf
 
